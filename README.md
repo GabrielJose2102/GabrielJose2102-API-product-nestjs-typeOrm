@@ -159,7 +159,6 @@ $ npm run start:dev
 ## Modo de Producción
 $ npm run start:prod
 
-##
 # Rutas del Controlador de Productos
 
 El `ProductController` maneja las operaciones CRUD (Crear, Leer, Actualizar y Eliminar) para los productos. A continuación se detallan las rutas y su funcionalidad:
@@ -236,6 +235,16 @@ updateProduct(
 }
 
 ```
+# Ejecuta peticiones de prueba
+
+## Thunder Client
+
+- GET
+- POST
+- PUT
+- PATCH
+- DELETE
+
 # Authors
 
 - [@Gabriel Torrealba](https://github.com/GabrielJose2102)

@@ -239,11 +239,23 @@ updateProduct(
 
 ## Thunder Client
 
-- GET
-- POST
-- PUT
-- PATCH
-- DELETE
+Thunder Client es una extensión de VSCode diseñada para realizar pruebas de APIs de forma rápida y sencilla, similar a herramientas como Postman, pero integrada directamente en el editor. Te permite enviar solicitudes HTTP (GET, POST, PUT, DELETE) y ver las respuestas en un entorno cómodo dentro de Visual Studio Code.
+
+## Cómo usar Thunder Client en VSCode:
+
+Instala la extensión "Thunder Client" desde el marketplace de VSCode.
+Abre la paleta de comandos (Ctrl+Shift+P) y busca "Thunder Client".
+Crea una nueva solicitud seleccionando el tipo (GET, POST, etc.).
+Introduce la URL de tu API y, si es necesario, el cuerpo de la solicitud.
+Envía la solicitud y visualiza la respuesta en el panel de resultados.
+
+- GET (http://localhost:3000/product)
+
+- POST (http://localhost:3000/product)
+
+- PATCH (http://localhost:3000/product/:id)
+
+- DELETE (http://localhost:3000/product/:id)
 
 # Authors
 
